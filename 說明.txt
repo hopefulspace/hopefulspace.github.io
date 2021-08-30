@@ -30,5 +30,5 @@ FB 程式碼
 <div class="fb-like" data-href="https://www.facebook.com/hopefulcity.co" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></div>
 
 
-
+照片版權
 <a href='https://www.freepik.com/vectors/health'>Health vector created by freepik - www.freepik.com</a>

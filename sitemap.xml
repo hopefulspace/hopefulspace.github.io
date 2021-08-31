@@ -3,9 +3,6 @@
 		<loc>https://hopefulcityco.com/index.html</loc>
 	</url>
 	<url>
-		<loc>https://hopefulcityco.com/page1.html</loc>
-	</url>
-	<url>
 		<loc>https://hopefulcityco.com/page4.html</loc>
 	</url>
 	<url>
@@ -31,6 +28,9 @@
 	</url>
 	<url>
 		<loc>https://hopefulcityco.com/page10.html</loc>
+	</url>
+	<url>
+		<loc>https://hopefulcityco.com/page1.html</loc>
 	</url>
 	<url>
 		<loc>https://hopefulcityco.com/page11.html</loc>

@@ -8848,22 +8848,34 @@ a {
 .cid-sHDZUPvLgj .card-box {
   text-align: left;
 }
-.cid-sHy6DAuyEX {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+.cid-sHEXzB82MG {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   background-color: #fafafa;
 }
-.cid-sHy6DAuyEX .mbr-text,
-.cid-sHy6DAuyEX .mbr-section-btn {
-  color: #232323;
+@media (min-width: 1500px) {
+  .cid-sHEXzB82MG .container {
+    max-width: 1400px;
+  }
 }
-.cid-sHy6DAuyEX .card-title,
-.cid-sHy6DAuyEX .card-box {
+.cid-sHEXzB82MG .mbr-iconfont {
+  display: block;
+  font-size: 5rem;
+  color: #6592e6;
+  margin-bottom: 2rem;
+}
+.cid-sHEXzB82MG .card-wrapper {
+  margin-top: 3rem;
+}
+.cid-sHEXzB82MG .row {
+  justify-content: center;
+}
+.cid-sHEXzB82MG .mbr-section-title {
   color: #66458e;
 }
-.cid-sHy6DAuyEX .mbr-text,
-.cid-sHy6DAuyEX .link-wrap {
-  color: #ffffff;
+.cid-sHEXzB82MG .card-text {
+  color: #66458e;
+  text-align: left;
 }
 .cid-sHy6DABqG1 {
   padding-top: 3rem;

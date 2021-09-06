@@ -35,12 +35,14 @@ FB 程式碼
 
 
 YT 程式碼 UCmk7b3wvjPNmhnGZbf9ihlQ
+
+只有按鈕
 <script src="https://apis.google.com/js/platform.js"></script>
 
 <div class="g-ytsubscribe" data-channelid="UCmk7b3wvjPNmhnGZbf9ihlQ" data-layout="default" data-count="default"></div>
 
 
-全部
+全部_含LOGO
 
 <script src="https://apis.google.com/js/platform.js"></script>
 

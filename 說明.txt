@@ -32,3 +32,16 @@ FB 程式碼
 
 照片版權
 <a href='https://www.freepik.com/vectors/health'>Health vector created by freepik - www.freepik.com</a>
+
+
+YT 程式碼 UCmk7b3wvjPNmhnGZbf9ihlQ
+<script src="https://apis.google.com/js/platform.js"></script>
+
+<div class="g-ytsubscribe" data-channelid="UCmk7b3wvjPNmhnGZbf9ihlQ" data-layout="default" data-count="default"></div>
+
+
+全部
+
+<script src="https://apis.google.com/js/platform.js"></script>
+
+<div class="g-ytsubscribe" data-channelid="UCmk7b3wvjPNmhnGZbf9ihlQ" data-layout="full" data-theme="dark" data-count="default"></div>

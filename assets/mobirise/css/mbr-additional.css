@@ -108,7 +108,7 @@ body {
   background-color: #e6c63b !important;
 }
 .bg-danger {
-  background-color: #e0cbfa !important;
+  background-color: #025dff !important;
 }
 .btn-primary,
 .btn-primary:active {
@@ -222,9 +222,9 @@ body {
 }
 .btn-danger,
 .btn-danger:active {
-  background-color: #e0cbfa !important;
-  border-color: #e0cbfa !important;
-  color: #5a11b5 !important;
+  background-color: #025dff !important;
+  border-color: #025dff !important;
+  color: #ffffff !important;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
 }
 .btn-danger:hover,
@@ -232,15 +232,15 @@ body {
 .btn-danger.focus,
 .btn-danger.active {
   color: #ffffff !important;
-  background-color: #b17cf2 !important;
-  border-color: #b17cf2 !important;
+  background-color: #003daa !important;
+  border-color: #003daa !important;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
 .btn-danger.disabled,
 .btn-danger:disabled {
-  color: #5a11b5 !important;
-  background-color: #b17cf2 !important;
-  border-color: #b17cf2 !important;
+  color: #ffffff !important;
+  background-color: #003daa !important;
+  border-color: #003daa !important;
 }
 .btn-white,
 .btn-white:active {
@@ -395,22 +395,22 @@ body {
 .btn-danger-outline:active {
   background-color: transparent !important;
   border-color: transparent;
-  color: #e0cbfa;
+  color: #025dff;
 }
 .btn-danger-outline:hover,
 .btn-danger-outline:focus,
 .btn-danger-outline.focus,
 .btn-danger-outline.active {
-  color: #b17cf2 !important;
+  color: #003daa !important;
   background-color: transparent!important;
   border-color: transparent!important;
   box-shadow: none!important;
 }
 .btn-danger-outline.disabled,
 .btn-danger-outline:disabled {
-  color: #5a11b5 !important;
-  background-color: #e0cbfa !important;
-  border-color: #e0cbfa !important;
+  color: #ffffff !important;
+  background-color: #025dff !important;
+  border-color: #025dff !important;
 }
 .btn-black-outline,
 .btn-black-outline:active {
@@ -470,7 +470,7 @@ body {
   color: #e6c63b !important;
 }
 .text-danger {
-  color: #e0cbfa !important;
+  color: #025dff !important;
 }
 .text-white {
   color: #fafafa !important;
@@ -506,7 +506,7 @@ a.text-warning.active {
 a.text-danger:hover,
 a.text-danger:focus,
 a.text-danger.active {
-  color: #a96ef1 !important;
+  color: #00389b !important;
 }
 a.text-white:hover,
 a.text-white:focus,
@@ -547,7 +547,7 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
   background-color: #e6c63b;
 }
 .alert-danger {
-  background-color: #e0cbfa;
+  background-color: #025dff;
 }
 .mbr-section-btn a.btn:not(.btn-form) {
   border-radius: 100px;
@@ -588,7 +588,7 @@ a:hover {
 }
 .mbr-plan-header.bg-danger .mbr-plan-subtitle,
 .mbr-plan-header.bg-danger .mbr-plan-price-desc {
-  color: #ffffff;
+  color: #cee0ff;
 }
 /* Scroll to top button*/
 #scrollToTop a {
@@ -7626,46 +7626,46 @@ a {
 .cid-sHaUNbffXF .mbr-text {
   color: #000000;
 }
-.cid-sH99zfGF42 {
+.cid-sIbIs8D9kx {
   padding-top: 7rem;
   padding-bottom: 5rem;
   background-color: #ffffff;
 }
-.cid-sH99zfGF42 .img-wrapper {
+.cid-sIbIs8D9kx .img-wrapper {
   text-align: center;
 }
-.cid-sH99zfGF42 img {
+.cid-sIbIs8D9kx img {
   margin: auto;
   width: 140px;
   padding-bottom: 2rem;
 }
-.cid-sH99zfGF42 .row {
+.cid-sIbIs8D9kx .row {
   align-items: flex-start;
 }
-.cid-sH99zfGF42 .card-wrapper {
+.cid-sIbIs8D9kx .card-wrapper {
   border-radius: 4px;
   background: #fafafa;
 }
 @media (max-width: 992px) {
-  .cid-sH99zfGF42 .card-wrapper {
+  .cid-sIbIs8D9kx .card-wrapper {
     margin-bottom: 2rem;
   }
 }
 @media (min-width: 768px) {
-  .cid-sH99zfGF42 .card-wrapper {
+  .cid-sIbIs8D9kx .card-wrapper {
     padding: 2rem;
   }
 }
 @media (max-width: 767px) {
-  .cid-sH99zfGF42 .card-wrapper {
+  .cid-sIbIs8D9kx .card-wrapper {
     padding: 1rem;
   }
 }
-.cid-sH99zfGF42 .card-subtitle {
+.cid-sIbIs8D9kx .card-subtitle {
   color: #40b0bf;
 }
-.cid-sH99zfGF42 .mbr-text,
-.cid-sH99zfGF42 .mbr-section-btn {
+.cid-sIbIs8D9kx .mbr-text,
+.cid-sIbIs8D9kx .mbr-section-btn {
   color: #000000;
 }
 .cid-sH90rIDVbw {

@@ -8272,8 +8272,90 @@ a {
     left: -1rem;
   }
 }
+.cid-sJOOz2dyQD {
+  background-image: url("../../../assets/images/background15.jpg");
+}
+.cid-sJOOz2dyQD .social-row .soc-item {
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-right: .7rem;
+}
+.cid-sJOOz2dyQD .social-row .soc-item .mbr-iconfont {
+  font-size: 32px;
+  border-radius: 50%;
+  padding: 0.6rem;
+  border: 2px solid #232323;
+  transition: all 0.3s;
+  color: #232323;
+}
+.cid-sJOOz2dyQD .social-row .soc-item .mbr-iconfont:hover {
+  background-color: #232323;
+  color: #ffffff;
+}
+.cid-sJOOz2dyQD .mbr-text,
+.cid-sJOOz2dyQD .mbr-section-btn,
+.cid-sJOOz2dyQD .social-row {
+  text-align: left;
+}
+.cid-sJOOR3Qq5T {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-image: url("../../../assets/images/background15.jpg");
+}
+.cid-sJOOR3Qq5T .social-row .soc-item {
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-right: .7rem;
+}
+.cid-sJOOR3Qq5T .social-row .soc-item .mbr-iconfont {
+  font-size: 32px;
+  border-radius: 50%;
+  padding: 0.6rem;
+  border: 2px solid #232323;
+  transition: all 0.3s;
+  color: #232323;
+}
+.cid-sJOOR3Qq5T .social-row .soc-item .mbr-iconfont:hover {
+  background-color: #232323;
+  color: #ffffff;
+}
+.cid-sJOOR3Qq5T .mbr-text,
+.cid-sJOOR3Qq5T .mbr-section-btn,
+.cid-sJOOR3Qq5T .social-row {
+  text-align: left;
+}
+.cid-sJOPiEyYtv {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-image: url("../../../assets/images/background15.jpg");
+}
+.cid-sJOPiEyYtv .social-row .soc-item {
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-right: .7rem;
+}
+.cid-sJOPiEyYtv .social-row .soc-item .mbr-iconfont {
+  font-size: 32px;
+  border-radius: 50%;
+  padding: 0.6rem;
+  border: 2px solid #232323;
+  transition: all 0.3s;
+  color: #232323;
+}
+.cid-sJOPiEyYtv .social-row .soc-item .mbr-iconfont:hover {
+  background-color: #232323;
+  color: #ffffff;
+}
+.cid-sJOPiEyYtv .mbr-text,
+.cid-sJOPiEyYtv .mbr-section-btn,
+.cid-sJOPiEyYtv .social-row {
+  text-align: left;
+}
 .cid-sHu5yfosaW {
-  padding-top: 10rem;
+  padding-top: 6rem;
   padding-bottom: 6rem;
   background-image: url("../../../assets/images/background15.jpg");
 }
@@ -8295,28 +8377,10 @@ a {
   background-color: #232323;
   color: #ffffff;
 }
-.cid-sHu5z3B83r {
-  padding-top: 5rem;
-  padding-bottom: 4rem;
-  background-image: url("../../../assets/images/background15.jpg");
-}
-.cid-sHu5z3B83r .social-row .soc-item {
-  display: inline-block;
-  text-align: center;
-  margin-bottom: 1rem;
-  margin-right: .7rem;
-}
-.cid-sHu5z3B83r .social-row .soc-item .mbr-iconfont {
-  font-size: 32px;
-  border-radius: 50%;
-  padding: 0.6rem;
-  border: 2px solid #232323;
-  transition: all 0.3s;
-  color: #232323;
-}
-.cid-sHu5z3B83r .social-row .soc-item .mbr-iconfont:hover {
-  background-color: #232323;
-  color: #ffffff;
+.cid-sHu5yfosaW .mbr-text,
+.cid-sHu5yfosaW .mbr-section-btn,
+.cid-sHu5yfosaW .social-row {
+  text-align: left;
 }
 .cid-sHu5AwlKf8 {
   padding-top: 6rem;
@@ -8512,6 +8576,58 @@ a {
 .cid-sHu5EqEoN8 .item-subtitle {
   text-align: left;
   color: #232323;
+}
+.cid-sJOjISVF8V {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #ffffff;
+}
+.cid-sJOjISVF8V .carousel-item {
+  justify-content: center;
+}
+.cid-sJOjISVF8V .carousel-item.active,
+.cid-sJOjISVF8V .carousel-item-next,
+.cid-sJOjISVF8V .carousel-item-prev {
+  display: flex;
+}
+.cid-sJOjISVF8V .carousel-controls a {
+  transition: opacity .5s;
+  font-size: 30px;
+  position: absolute;
+  top: 180px;
+  bottom: auto;
+  height: 60px;
+  width: 60px;
+  padding: 10px;
+  color: #155ce0;
+}
+.cid-sJOjISVF8V .carousel-controls a .mbr-iconfont {
+  font-weight: 800;
+}
+.cid-sJOjISVF8V .carousel-control-next span {
+  padding-left: 5px;
+}
+.cid-sJOjISVF8V .carousel-control-prev span {
+  padding-right: 5px;
+}
+.cid-sJOjISVF8V .user_image {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 1.6rem;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto 2rem auto;
+}
+.cid-sJOjISVF8V .user_image img {
+  width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+}
+@media (max-width: 230px) {
+  .cid-sJOjISVF8V .user_image {
+    width: 100%;
+    height: auto;
+  }
 }
 .cid-sHu5F7hbZx {
   background-image: url("../../../assets/images/background10-2.jpeg");

@@ -9053,6 +9053,27 @@ a {
     padding: 2rem;
   }
 }
+.cid-sM9yZNHi4v {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #fafafa;
+}
+@media (max-width: 991px) {
+  .cid-sM9yZNHi4v .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-sM9yZNHi4v .row {
+  flex-direction: row-reverse;
+}
+.cid-sM9yZNHi4v img {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .cid-sM9yZNHi4v .text-wrapper {
+    padding: 2rem;
+  }
+}
 .cid-sHu5EqEoN8 {
   padding-top: 6rem;
   padding-bottom: 6rem;

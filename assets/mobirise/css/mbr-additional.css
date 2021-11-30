@@ -723,7 +723,7 @@ a {
 .cid-sQfObzbaFa {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  background-color: #98dee8;
+  background-color: #fafafa;
 }
 .cid-sQfObzbaFa .row {
   align-items: center;
@@ -758,7 +758,7 @@ a {
 .cid-sOqqvXScmA {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-image: url("../../../assets/images/background3.jpg");
+  background-color: #ffffff;
 }
 .cid-sOqqvXScmA .card:not(:nth-last-child(1)) {
   margin-bottom: 2rem;
@@ -832,7 +832,7 @@ a {
 .cid-sEOUfVQLBz {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-color: #98dee8;
+  background-color: #fafafa;
 }
 .cid-sEOUfVQLBz img,
 .cid-sEOUfVQLBz .item-img {
@@ -893,7 +893,7 @@ a {
 .cid-sEQK8Hl4Rr {
   padding-top: 10rem;
   padding-bottom: 7rem;
-  background-color: #9fdbf8;
+  background-color: #fafafa;
 }
 .cid-sEQK8Hl4Rr img,
 .cid-sEQK8Hl4Rr .item-img {
@@ -910,7 +910,7 @@ a {
 .cid-sEQK8Hl4Rr .item-wrapper {
   position: relative;
   border-radius: 4px;
-  background: #ece9e9;
+  background: #ffffff;
   height: 100%;
   display: flex;
   flex-flow: column nowrap;

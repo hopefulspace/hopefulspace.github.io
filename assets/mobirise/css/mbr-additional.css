@@ -8716,7 +8716,23 @@ a {
     left: -1rem;
   }
 }
+.cid-sVAxzRAifM {
+  background-image: url("../../../assets/images/background15-1.jpg");
+}
+.cid-sVAxzRAifM .mbr-text {
+  text-align: left;
+}
+.cid-sVAxzRAifM .mbr-section-subtitle {
+  color: #353535;
+}
+.cid-sVAxzRAifM .mbr-text,
+.cid-sVAxzRAifM .mbr-section-btn,
+.cid-sVAxzRAifM .social-row {
+  color: #353535;
+}
 .cid-sJOOz2dyQD {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
   background-image: url("../../../assets/images/background15.jpg");
 }
 .cid-sJOOz2dyQD .social-row .soc-item {
@@ -8749,6 +8765,89 @@ a {
 }
 .cid-sJOOR3Qq5T .mbr-text {
   text-align: left;
+}
+.cid-sVACjuWoxO {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
+}
+.cid-sVACjuWoxO .img-row {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cid-sVACjuWoxO .item:focus,
+.cid-sVACjuWoxO span:focus {
+  outline: none;
+}
+.cid-sVACjuWoxO .item {
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+@media (max-width: 767px) {
+  .cid-sVACjuWoxO .item {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    margin-bottom: 30px;
+  }
+}
+.cid-sVACjuWoxO .item-wrapper {
+  position: relative;
+  background: transparent;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 0 20px;
+}
+@media (max-width: 767px) {
+  .cid-sVACjuWoxO .item-wrapper {
+    max-width: 350px;
+    margin: 0 auto;
+  }
+}
+.cid-sVACjuWoxO .item-content {
+  padding: 0 1rem;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.cid-sVACjuWoxO .mbr-section-btn {
+  margin-top: auto !important;
+  width: 100%;
+}
+.cid-sVACjuWoxO .mbr-section-title,
+.cid-sVACjuWoxO .mbr-section-subtitle {
+  color: #111111;
+}
+.cid-sVACjuWoxO .mbr-text {
+  color: #555555;
+  font-style: italic;
+}
+.cid-sVACjuWoxO .item-subtitle {
+  text-align: center;
+}
+.cid-sVACjuWoxO .item-img {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  overflow: hidden;
+  display: flex;
+  margin-bottom: 24px;
+}
+.cid-sVACjuWoxO .item-img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.cid-sVACjuWoxO .mbr-section-head {
+  margin-bottom: 22px;
+}
+@media (min-width: 768px) {
+  .cid-sVACjuWoxO .mbr-section-head {
+    margin-bottom: 90px;
+  }
 }
 .cid-sHu5AwlKf8 {
   padding-top: 6rem;

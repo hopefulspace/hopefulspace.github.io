@@ -55,7 +55,7 @@
     "sitemapSwitcher": true,
     "sitemapSwitcherAuto": false,
     "siteUrl": "https://hopefulcityco.com/",
-    "uniqCompNum": 673,
+    "uniqCompNum": 675,
     "versionPublish": "5.6.11",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
@@ -191,12 +191,207 @@
           },
           "_name": "custom-html",
           "_sourceTheme": "medicalm4",
-          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#25303e\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-12\">\n<!--                  <marquee direction=\"right\" height=\"60\" scrollamount=\"10\" behavior=\"alternate\" onmouseover=\"this.stop()\" onmouseout=\"this.start()\"><h2 class=\"mbr-fonts-style block-title align-center\" data-app-selector=\".block-title\" mbr-theme-style=\"display-1\"><b>跑馬燈測試</b></h2></marquee> -->\n                                 <marquee direction=\"left\" height=\"60\" align=\"MIDDLE\" scrollamount=\"8\" onmouseover=\"this.stop()\" onmouseout=\"this.start()\"><h1 class=\"mbr-fonts-style block-title align-center\" data-app-selector=\".block-title\" mbr-theme-style=\"display-5\"><b>\n                                     <a href=\"index.html#header14-if\" class=\"text-primary\" target=\"_blank\">🚩安心角落人際情緒支持團體已額滿...</a>\n                                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;\n                                     <a href=\"page18.html\" class=\"text-primary\" target=\"_blank\">📌2022_家庭敲心磚公益免費課程開放報名...</a>\n                                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\n                                     <a href=\"index.html#空間出任務\" class=\"text-primary\" target=\"_blank\">📌～空間出任務～...</a>\n                                      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\n                                     <a href=\"page17.html\" class=\"text-primary\" target=\"_blank\">📌～臺灣撐出空間教育關懷協會已獲准成立囉～...</a>\n                                     \n                                     \n                                     </b></h1></marquee>\n<!--                 <marquee direction=\"right\" height=\"60\" scrollamount=\"10\" behavior=\"alternate\" onmouseover=\"this.stop()\" onmouseout=\"this.start()\"><h2>跑馬燈測試</h2></marquee> -->\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#25303e\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-12\">\n<!--                  <marquee direction=\"right\" height=\"60\" scrollamount=\"10\" behavior=\"alternate\" onmouseover=\"this.stop()\" onmouseout=\"this.start()\"><h2 class=\"mbr-fonts-style block-title align-center\" data-app-selector=\".block-title\" mbr-theme-style=\"display-1\"><b>跑馬燈測試</b></h2></marquee> -->\n                                 <marquee direction=\"left\" height=\"60\" align=\"MIDDLE\" scrollamount=\"8\" onmouseover=\"this.stop()\" onmouseout=\"this.start()\"><h1 class=\"mbr-fonts-style block-title align-center\" data-app-selector=\".block-title\" mbr-theme-style=\"display-5\"><b>\n                                     <a href=\"https://forms.gle/pBiUeujXn7EstCQZA\" class=\"text-primary\" target=\"_blank\">🚩2023_家庭敲心磚_好奇大募集...</a>\n                                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;\n                                     <a href=\"page18.html\" class=\"text-primary\" target=\"_blank\">📌2022_家庭敲心磚公益免費課程開放報名...</a>\n                                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\n                                     <a href=\"index.html#空間出任務\" class=\"text-primary\" target=\"_blank\">📌～空間出任務～...</a>\n                                      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\n                                     <a href=\"page17.html\" class=\"text-primary\" target=\"_blank\">📌～臺灣撐出空間教育關懷協會已獲准成立囉～...</a>\n                                     \n                                     \n                                     </b></h1></marquee>\n<!--                 <marquee direction=\"right\" height=\"60\" scrollamount=\"10\" behavior=\"alternate\" onmouseover=\"this.stop()\" onmouseout=\"this.start()\"><h2>跑馬燈測試</h2></marquee> -->\n            </div>\n        </div>\n    </div>\n</section>",
           "_JSplaceholders": [],
           "_PHPplaceholders": [],
           "_anchor": "custom-html-g8",
           "_isUserblock": true,
           "_cid": "sRLNLOn7j3",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@reverseContent)": {
+              ".row": {
+                "flex-direction": "row-reverse"
+              }
+            },
+            "& when (@fullWidth)": {
+              ".text-wrapper": {
+                "padding": "1rem"
+              }
+            },
+            "@media (min-width: 992px)": {
+              ".text-wrapper": {
+                "padding": "2rem"
+              }
+            },
+            ".image-wrapper": {
+              "img": {
+                "width": "100%",
+                "object-fit": "cover"
+              },
+              "@media (max-width: 767px)": {
+                "margin-top": "2rem"
+              }
+            },
+            ".mbr-section-title": {
+              "text-align": "left",
+              "margin-bottom": "0 !important",
+              "color": "#b8d94f"
+            },
+            ".name": {
+              "margin-top": "0.70rem",
+              "color": "#47a15d",
+              "text-align": "left"
+            },
+            ".mbr-text": {
+              "margin-bottom": "0 !important",
+              "color": "#000000",
+              "text-align": "left",
+              "margin-top": "4.25rem !important",
+              "line-height": "1.4"
+            },
+            ".mbr-text, .mbr-section-data": {
+              "text-align": "left"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "text-align": "left",
+              "color": "#8d8d8d"
+            },
+            ".mbr-section-btn": {
+              "margin-top": "3.5rem !important"
+            }
+          },
+          "_name": "header1",
+          "_sourceTheme": "grocerym4",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header1\" group=\"Header\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"8\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showName\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Button\" name=\"showButton\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            7<input type=\"image\" title=\"Background Image\" value=\"../_images/background17.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth}\">\n\n        <div class=\"row align-items-center\">\n\n            <div class=\"col-12 col-md\" mbr-class=\"{'col-lg-4' : fullWidth &amp;&amp; textWidth >= 6, 'col-lg-6' : fullWidth &amp;&amp; textWidth <= 5}\">\n\n                <div class=\"text-wrapper\">\n                    <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\"><b>2023</b></h3>\n                    <p class=\"name mbr-semibold mbr-fonts-style mb-1\" mbr-if=\"showName\" mbr-theme-style=\"display-5\" data-app-selector=\".name\">家庭敲心磚_好奇大募集</p>\n                    <p class=\"mbr-text mbr-fonts-style mb-4 mt-4\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">明年的家庭敲心磚，你想聽什麼主題呢???</p>\n\n                    <div mbr-if=\"showButton\" class=\"mbr-section-btn item-footer mt-2\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-4\"><a href=\"https://forms.gle/pBiUeujXn7EstCQZA\" class=\"btn btn-lg item-btn btn-primary\" target=\"_blank\" data-app-placeholder=\"Type Text\">填寫表單 &gt;</a></div>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <div class=\"image-wrapper\">\n                    <img src=\"../_images/features/features12.jpg\" alt=\"Mobirise\">\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tleXCdPiRe",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "header1-ip"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)",
+              "& when (@overlay)": {
+                ".mbr-overlay": {
+                  "background": "@overlayColor",
+                  "opacity": "@overlayOpacity"
+                }
+              }
+            },
+            "img, .item-img": {
+              "width": "100%",
+              "& when (@autoSize)": {
+                "height": "100%",
+                "object-fit": "cover",
+                "& when (@showCardTitle)": {
+                  "height": "(@imageHeight * 100px)",
+                  "object-fit": "cover"
+                },
+                "& when (@showCardSubtitle)": {
+                  "height": "(@imageHeight * 100px)",
+                  "object-fit": "cover"
+                },
+                "& when (@showText)": {
+                  "height": "(@imageHeight * 100px)",
+                  "object-fit": "cover"
+                },
+                "& when (@showButtons)": {
+                  "height": "(@imageHeight * 100px)",
+                  "object-fit": "cover"
+                }
+              }
+            },
+            ".item:focus, span:focus": {
+              "outline": "none"
+            },
+            ".item": {
+              "cursor": "pointer",
+              "margin-bottom": "2rem"
+            },
+            "& when not (@spacing)": {
+              ".row": {
+                "margin-left": "0",
+                "margin-right": "0"
+              },
+              ".item": {
+                "padding": "0",
+                "margin": "0"
+              }
+            },
+            ".item-wrapper": {
+              "position": "relative",
+              "border-radius": "4px",
+              "background": "@cardsBg",
+              "height": "100%",
+              "display": "flex",
+              "flex-flow": "column nowrap",
+              "@media (min-width: 992px)": {
+                "& when (@showButtons)": {
+                  ".item-content": {
+                    "padding": "2rem 2rem 0"
+                  },
+                  ".item-footer": {
+                    "padding": "0 2rem 2rem"
+                  }
+                },
+                "& when not (@showButtons)": {
+                  ".item-content": {
+                    "padding": "2rem"
+                  }
+                }
+              },
+              "@media (max-width: 991px)": {
+                "& when (@showButtons)": {
+                  ".item-content": {
+                    "padding": "1rem 1rem 0"
+                  },
+                  ".item-footer": {
+                    "padding": "0 1rem 1rem"
+                  }
+                },
+                "& when not (@showButtons)": {
+                  ".item-content": {
+                    "padding": "1rem"
+                  }
+                }
+              }
+            },
+            ".mbr-section-btn": {
+              "margin-top": "auto !important"
+            },
+            ".mbr-section-title": {
+              "color": "#232323"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "text-align": "left"
+            },
+            ".item-title": {
+              "text-align": "left"
+            },
+            ".item-subtitle": {
+              "text-align": "left",
+              "color": "#bbbbbb"
+            }
+          },
+          "_name": "features4",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features4\" group=\"Features\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <select title=\"Columns\" name=\"cardsWidth\">\n            <option value=\"12\">1</option>\n            <option value=\"6\" selected>2</option>\n            <option value=\"4\">3</option>\n            <option value=\"3\">4</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" name=\"showTitle\" title=\"Title\" checked>\n        <input type=\"checkbox\" name=\"showSubtitle\" title=\"Subtitle\">\n        <header>Cards</header>\n        <input type=\"checkbox\" name=\"autoSize\" title=\"Auto Size\" checked>\n        <input type=\"range\" name=\"imageHeight\" title=\"Height\" min=\"1\" max=\"5\" step=\"1\" value=\"3\" condition=\"autoSize && !(showButtons==false && showCardSubtitle==false && showCardTitle==false && showText==false)\">\n        <input type=\"checkbox\" title=\"Spacing\" name=\"spacing\" checked>\n        <input type=\"checkbox\" name=\"showCardTitle\" title=\"Title\" checked>\n        <input type=\"checkbox\" name=\"showCardSubtitle\" title=\"Subtitle\">\n        <input type=\"checkbox\" name=\"showText\" title=\"Text\" checked>\n        <input type=\"checkbox\" name=\"showButtons\" title=\"Buttons\" checked>\n        <input type=\"color\" name=\"cardsBg\" title=\"BG\" value=\"#ece9e9\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" required>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#fafafa\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#fafafa\" condition=\"overlay && bg.type == 'image'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type == 'image'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"mbr-section-head\" mbr-if=\"showTitle || showSubtitle\">\n            <h4 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                <b>服務項目</b></h4>\n            <h5 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">To add more cards, hover on a card and\n                click 'Add items'</h5>\n        </div>\n        <div class=\"row mt-4\">\n            <div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}} active\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/6.png\" alt title data-slide-to=\"0\" data-bs-slide-to=\"0\">\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b>親職教養講座邀約</b></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">Website Design</h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">我們提供親職教養相關講座、工作以及父母/教師成長支持團體與讀書會的服務，歡迎所有學校、企業、社區或任何有需求的組織與我們聯哦。<br></p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"page21.html\" class=\"btn item-btn btn-white\" target=\"_blank\" data-app-placeholder=\"Type Text\">邀約表單 &gt;</a></div>\n                </div>\n            </div><div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/top-view-solidarity-concept.jpg\" alt title data-slide-to=\"1\" data-bs-slide-to=\"1\">\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b>親職教養/班級經營 諮詢</b></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">Website Design</h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">由取得臺灣阿德勒心理學會認證的親師諮詢師，提供養育者/教育者諮詢服務。<br>\n<br>※請按下列連結填寫預約表單，單次服務1000元/1hr，初次諮詢以視訊進行(50min)不收費。<br></p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"page8.html\" class=\"btn item-btn btn-white\" target=\"_blank\" data-app-placeholder=\"Type Text\">預約 &gt;</a></div>\n                </div>\n            </div>\n            <div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/mbr-1.jpg\" alt title data-slide-to=\"2\" data-bs-slide-to=\"1\">\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b>自學方案</b></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n                            HTML/CSS Coding</h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">根據孩子的需求與狀態，連結資源、設計符合需求的自主學習方案。\n<br>\n<br>※父母與孩子需分別完成初次諮詢(免費)後，方能提供客製化自主學習方案(含費用報價)。</p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"page8.html\" class=\"btn item-btn btn-white\" target=\"_blank\" data-app-placeholder=\"Type Text\">預約 &gt;</a></div>\n                </div>\n            </div>\n            <div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/mbr.jpg\" alt title data-slide-to=\"3\" data-bs-slide-to=\"3\">\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b>自學計畫/報告撰寫</b></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">Creating Your Brand</h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">引導申請自主學習的家庭如何適切的撰寫自主學習計畫與成果報告。\n<br>※父母與孩子需共同完成初次諮詢(免費)後，安排時間由團隊引導父母與孩子共同完成計畫/成果的省思與撰寫。\n<br>※包含2-3次的諮詢時間，總收費3000元。<br></p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"page8.html\" class=\"btn item-btn btn-white\" data-app-placeholder=\"Type Text\" target=\"_blank\">預約 &gt;</a></div>\n                </div>\n            </div><div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/s-7741502.jpg\" alt title data-slide-to=\"4\" data-bs-slide-to=\"4\">\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b>心靈充電站/</b><i><b>預約制</b></i></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">Creating Your Brand</h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">歡迎任何需要充電的人来玩~<br>教養是一輛單程列車，從成為父母後再也沒有回頭的一刻。\n<br>正是因為這輛列車需要行駛好長的時間，撐出•空間打造這個充電站，提供在單程列車上的教養者們，有一個休憩的空間，有一個片刻能好好的安頓自己，再出發～<br></p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"page13.html\" class=\"btn item-btn btn-white\" data-app-placeholder=\"Type Text\" target=\"_blank\">預約 &gt;</a></div>\n                </div>\n            </div><div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/mbr-11.jpg\" alt title data-slide-to=\"5\" data-bs-slide-to=\"5\">\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b>成長/共學 課程</b></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">Creating Your Brand</h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b><i>2022_公開中課程</i></b><br>※家庭敲心磚_公益講座_3月起共10堂<br>※家庭敲心磚_練功團_5月起共16堂<br>※海蒂之柱_1月起共4堂<br>※夜談阿德勒_1月起共12堂<br>※精神時光屋_讀書會_1月起/每2個月讀一本書<br></p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"index.html#公開中課程\" class=\"btn item-btn btn-white\" data-app-placeholder=\"Type Text\">了解更多 &gt;</a></div>\n                </div>\n            </div><div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/page1-1778x1265.png\" alt title data-slide-to=\"6\" data-bs-slide-to=\"6\">\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b>加入 撐出•空間 會員</b></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">Creating Your Brand</h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">～撐出空間已獲內政部同意正式成立為全國性社團～<br><br>誠摯邀請願意在教育、教養領域中貢獻與服務的夥伴加入「臺灣撐出空間教育關懷協會」，讓我們擁有更多能量來陪伴家庭，共同創造一個更能承接每一個孩子的教育環境。<br>※會員申請加入須填寫線上表單後，再等候Email通知繳費。<br></p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"page17.html\" class=\"btn item-btn btn-white\" data-app-placeholder=\"Type Text\" target=\"_blank\">了解更多 &gt;</a></div>\n                </div>\n            </div><div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/245438655-4350565365058912-3418913164725608910-n-820x312.jpg\" alt title data-slide-to=\"7\" data-bs-slide-to=\"7\">\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b>好書推薦</b></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">Creating Your Brand</h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">你在煩惱什麼呢？大學諮商心理師給你的陪伴之書，關於成長的疼痛與焦慮<br>作者： 李家雯（海蒂）<br></p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"page14.html\" class=\"btn item-btn btn-white\" data-app-placeholder=\"Type Text\" target=\"_blank\">了解更多 &gt;</a></div>\n                </div>\n            </div>\n\n        </div>\n    </div>\n</section>",
+          "_cid": "sEOUfVQLBz",
+          "_anchor": "服務項目",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -372,134 +567,12 @@
               "text-align": "left"
             },
             ".item-subtitle": {
-              "text-align": "left",
-              "color": "#bbbbbb"
-            }
-          },
-          "_name": "features4",
-          "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features4\" group=\"Features\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <select title=\"Columns\" name=\"cardsWidth\">\n            <option value=\"12\">1</option>\n            <option value=\"6\" selected>2</option>\n            <option value=\"4\">3</option>\n            <option value=\"3\">4</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" name=\"showTitle\" title=\"Title\" checked>\n        <input type=\"checkbox\" name=\"showSubtitle\" title=\"Subtitle\">\n        <header>Cards</header>\n        <input type=\"checkbox\" name=\"autoSize\" title=\"Auto Size\" checked>\n        <input type=\"range\" name=\"imageHeight\" title=\"Height\" min=\"1\" max=\"5\" step=\"1\" value=\"3\" condition=\"autoSize && !(showButtons==false && showCardSubtitle==false && showCardTitle==false && showText==false)\">\n        <input type=\"checkbox\" title=\"Spacing\" name=\"spacing\" checked>\n        <input type=\"checkbox\" name=\"showCardTitle\" title=\"Title\" checked>\n        <input type=\"checkbox\" name=\"showCardSubtitle\" title=\"Subtitle\">\n        <input type=\"checkbox\" name=\"showText\" title=\"Text\" checked>\n        <input type=\"checkbox\" name=\"showButtons\" title=\"Buttons\" checked>\n        <input type=\"color\" name=\"cardsBg\" title=\"BG\" value=\"#ece9e9\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" required>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#fafafa\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#fafafa\" condition=\"overlay && bg.type == 'image'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type == 'image'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"mbr-section-head\" mbr-if=\"showTitle || showSubtitle\">\n            <h4 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                <b>服務項目</b></h4>\n            <h5 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">To add more cards, hover on a card and\n                click 'Add items'</h5>\n        </div>\n        <div class=\"row mt-4\">\n            <div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}} active\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/6.png\" alt title data-slide-to=\"0\" data-bs-slide-to=\"0\">\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b>親職教養講座邀約</b></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">Website Design</h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">我們提供親職教養相關講座、工作以及父母/教師成長支持團體與讀書會的服務，歡迎所有學校、企業、社區或任何有需求的組織與我們聯哦。<br></p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"page21.html\" class=\"btn item-btn btn-white\" target=\"_blank\" data-app-placeholder=\"Type Text\">邀約表單 &gt;</a></div>\n                </div>\n            </div><div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/top-view-solidarity-concept.jpg\" alt title data-slide-to=\"1\" data-bs-slide-to=\"1\">\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b>親職教養/班級經營 諮詢</b></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">Website Design</h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">由取得臺灣阿德勒心理學會認證的親師諮詢師，提供養育者/教育者諮詢服務。<br>\n<br>※請按下列連結填寫預約表單，單次服務1000元/1hr，初次諮詢以視訊進行(50min)不收費。<br></p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"page8.html\" class=\"btn item-btn btn-white\" target=\"_blank\" data-app-placeholder=\"Type Text\">預約 &gt;</a></div>\n                </div>\n            </div>\n            <div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/mbr-1.jpg\" alt title data-slide-to=\"2\" data-bs-slide-to=\"1\">\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b>自學方案</b></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n                            HTML/CSS Coding</h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">根據孩子的需求與狀態，連結資源、設計符合需求的自主學習方案。\n<br>\n<br>※父母與孩子需分別完成初次諮詢(免費)後，方能提供客製化自主學習方案(含費用報價)。</p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"page8.html\" class=\"btn item-btn btn-white\" target=\"_blank\" data-app-placeholder=\"Type Text\">預約 &gt;</a></div>\n                </div>\n            </div>\n            <div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/mbr.jpg\" alt title data-slide-to=\"3\" data-bs-slide-to=\"3\">\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b>自學計畫/報告撰寫</b></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">Creating Your Brand</h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">引導申請自主學習的家庭如何適切的撰寫自主學習計畫與成果報告。\n<br>※父母與孩子需共同完成初次諮詢(免費)後，安排時間由團隊引導父母與孩子共同完成計畫/成果的省思與撰寫。\n<br>※包含2-3次的諮詢時間，總收費3000元。<br></p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"page8.html\" class=\"btn item-btn btn-white\" data-app-placeholder=\"Type Text\" target=\"_blank\">預約 &gt;</a></div>\n                </div>\n            </div><div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/s-7741502.jpg\" alt title data-slide-to=\"4\" data-bs-slide-to=\"4\">\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b>心靈充電站/</b><i><b>預約制</b></i></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">Creating Your Brand</h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">歡迎任何需要充電的人来玩~<br>教養是一輛單程列車，從成為父母後再也沒有回頭的一刻。\n<br>正是因為這輛列車需要行駛好長的時間，撐出•空間打造這個充電站，提供在單程列車上的教養者們，有一個休憩的空間，有一個片刻能好好的安頓自己，再出發～<br></p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"page13.html\" class=\"btn item-btn btn-white\" data-app-placeholder=\"Type Text\" target=\"_blank\">預約 &gt;</a></div>\n                </div>\n            </div><div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/mbr-11.jpg\" alt title data-slide-to=\"5\" data-bs-slide-to=\"5\">\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b>成長/共學 課程</b></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">Creating Your Brand</h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b><i>2022_公開中課程</i></b><br>※家庭敲心磚_公益講座_3月起共10堂<br>※家庭敲心磚_練功團_5月起共16堂<br>※海蒂之柱_1月起共4堂<br>※夜談阿德勒_1月起共12堂<br>※精神時光屋_讀書會_1月起/每2個月讀一本書<br></p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"index.html#公開中課程\" class=\"btn item-btn btn-white\" data-app-placeholder=\"Type Text\">了解更多 &gt;</a></div>\n                </div>\n            </div><div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/page1-1778x1265.png\" alt title data-slide-to=\"6\" data-bs-slide-to=\"6\">\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b>加入 撐出•空間 會員</b></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">Creating Your Brand</h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">～撐出空間已獲內政部同意正式成立為全國性社團～<br><br>誠摯邀請願意在教育、教養領域中貢獻與服務的夥伴加入「臺灣撐出空間教育關懷協會」，讓我們擁有更多能量來陪伴家庭，共同創造一個更能承接每一個孩子的教育環境。<br>※會員申請加入須填寫線上表單後，再等候Email通知繳費。<br></p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"page17.html\" class=\"btn item-btn btn-white\" data-app-placeholder=\"Type Text\" target=\"_blank\">了解更多 &gt;</a></div>\n                </div>\n            </div><div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/245438655-4350565365058912-3418913164725608910-n-820x312.jpg\" alt title data-slide-to=\"7\" data-bs-slide-to=\"7\">\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b>好書推薦</b></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">Creating Your Brand</h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">你在煩惱什麼呢？大學諮商心理師給你的陪伴之書，關於成長的疼痛與焦慮<br>作者： 李家雯（海蒂）<br></p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"page14.html\" class=\"btn item-btn btn-white\" data-app-placeholder=\"Type Text\" target=\"_blank\">了解更多 &gt;</a></div>\n                </div>\n            </div>\n\n        </div>\n    </div>\n</section>",
-          "_cid": "sEOUfVQLBz",
-          "_anchor": "服務項目",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 1rem)",
-            "padding-bottom": "(@paddingBottom * 1rem)",
-            "& when (@bg-type = \"color\")": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = \"image\")": {
-              "background-image": "url(@bg-value)",
-              "& when (@overlay)": {
-                ".mbr-overlay": {
-                  "background": "@overlayColor",
-                  "opacity": "@overlayOpacity"
-                }
-              }
-            },
-            "img, .item-img": {
-              "width": "100%",
-              "& when (@autoSize)": {
-                "height": "100%",
-                "object-fit": "cover",
-                "& when (@showCardTitle)": {
-                  "height": "(@imageHeight * 100px)",
-                  "object-fit": "cover"
-                },
-                "& when (@showCardSubtitle)": {
-                  "height": "(@imageHeight * 100px)",
-                  "object-fit": "cover"
-                },
-                "& when (@showText)": {
-                  "height": "(@imageHeight * 100px)",
-                  "object-fit": "cover"
-                },
-                "& when (@showButtons)": {
-                  "height": "(@imageHeight * 100px)",
-                  "object-fit": "cover"
-                }
-              }
-            },
-            ".item:focus, span:focus": {
-              "outline": "none"
-            },
-            ".item": {
-              "cursor": "pointer",
-              "margin-bottom": "2rem"
-            },
-            "& when not (@spacing)": {
-              ".row": {
-                "margin-left": "0",
-                "margin-right": "0"
-              },
-              ".item": {
-                "padding": "0",
-                "margin": "0"
-              }
-            },
-            ".item-wrapper": {
-              "position": "relative",
-              "border-radius": "4px",
-              "background": "@cardsBg",
-              "height": "100%",
-              "display": "flex",
-              "flex-flow": "column nowrap",
-              "@media (min-width: 992px)": {
-                "& when (@showButtons)": {
-                  ".item-content": {
-                    "padding": "2rem 2rem 0"
-                  },
-                  ".item-footer": {
-                    "padding": "0 2rem 2rem"
-                  }
-                },
-                "& when not (@showButtons)": {
-                  ".item-content": {
-                    "padding": "2rem"
-                  }
-                }
-              },
-              "@media (max-width: 991px)": {
-                "& when (@showButtons)": {
-                  ".item-content": {
-                    "padding": "1rem 1rem 0"
-                  },
-                  ".item-footer": {
-                    "padding": "0 1rem 1rem"
-                  }
-                },
-                "& when not (@showButtons)": {
-                  ".item-content": {
-                    "padding": "1rem"
-                  }
-                }
-              }
-            },
-            ".mbr-section-btn": {
-              "margin-top": "auto !important"
-            },
-            ".mbr-section-title": {
-              "color": "#232323"
-            },
-            ".mbr-text, .mbr-section-btn": {
-              "text-align": "left"
-            },
-            ".item-title": {
-              "text-align": "left"
-            },
-            ".item-subtitle": {
               "text-align": "left"
             }
           },
           "_name": "features3",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features3\" group=\"Features\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"10\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <select title=\"Columns\" name=\"cardsWidth\">\n            <option value=\"12\">1</option>\n            <option value=\"6\" selected>2</option>\n            <option value=\"4\">3</option>\n            <option value=\"3\">4</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" name=\"showTitle\" title=\"Title\" checked>\n        <input type=\"checkbox\" name=\"showSubtitle\" title=\"Subtitle\">\n        <header>Cards</header>\n        <input type=\"checkbox\" name=\"autoSize\" title=\"Auto Size\">\n        <input type=\"range\" name=\"imageHeight\" title=\"Height\" min=\"1\" max=\"5\" step=\"1\" value=\"5\" condition=\"autoSize && !(showButtons==false && showCardSubtitle==false && showCardTitle==false && showText==false)\">\n        <input type=\"checkbox\" title=\"Spacing\" name=\"spacing\" checked>\n        <input type=\"checkbox\" name=\"showCardTitle\" title=\"Title\" checked>\n        <input type=\"checkbox\" name=\"showCardSubtitle\" title=\"Subtitle\">\n        <input type=\"checkbox\" name=\"showText\" title=\"Text\" checked>\n        <input type=\"checkbox\" name=\"showButtons\" title=\"Buttons\" checked>\n        <input type=\"color\" name=\"cardsBg\" title=\"BG\" value=\"#ffffff\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" required>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background3.jpeg\">\n            <input type=\"color\" title=\"Color\" value=\"#fafafa\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#fafafa\" condition=\"overlay && bg.type == 'image'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type == 'image'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"mbr-section-head\" mbr-if=\"showTitle || showSubtitle\">\n            <h4 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                <b>公開中的課程</b></h4>\n            <h5 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">To add more cards, hover on a card and\n                click 'Add items'</h5>\n        </div>\n        <div class=\"row mt-4\">\n            <div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}} active\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/2022-2-1253x1265.png\" alt data-slide-to=\"0\" data-bs-slide-to=\"0\">\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b>2022_家庭敲心磚_親職教育系列講座_公益免費</b></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n                            <i>Card Subtitle</i>\n                        </h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">每一塊磚讓我們敲開彼此心門，每一塊磚搭建我們的溫暖家園，從理解概念到練習如何在教養裡運用，讓我們一起知行合一，營造更加自在的教養關係。</p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"page18.html\" class=\"btn item-btn btn-white\" target=\"_blank\" data-app-placeholder=\"Type Text\">More &gt;</a></div>\n                </div>\n            </div><div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/mbr-1256x801.jpg\" alt data-slide-to=\"1\" data-bs-slide-to=\"1\">\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b>2022_10-12月_精神時光屋 開始練功囉</b></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n                            <i>Card Subtitle</i>\n                        </h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">我們相信閱讀與對話，將帶來希望與更多可能性。每周一次由諮詢師陪伴大家一起對話討論，夥伴們可以選擇自己有興趣的書籍梯次參與。一起來練功吧~<br><br>帶領人 葉人菘\n<br>日期 2022/11/03~12/22&nbsp;每周一次<br>\n時間&nbsp;19:00-20:30 (1.5hr)<br>報名費 $1000元<br>《教出有勇氣與行動力的孩子-親子雙贏的教養功夫》<br><br>帶領人 張慧嬅<br>日期 2022/10/25~2023/01/03 兩周一次<br>時間 19:30-21:00 (1.5hr)\n<br>《我們，相伴不相絆》<br>\n<br>\n帶領人 張慧嬅\n<br>日期&nbsp;2022/10/12~12/21 兩周一次\n<br>時間 13:30-15:00 (1.5hr)\n<br>《讓天賦自由（改版）》&nbsp;<br></p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"page7.html\" class=\"btn item-btn btn-white\" data-app-placeholder=\"Type Text\" target=\"_blank\">More &gt;</a></div>\n                </div>\n            </div><div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/2.jpg\" alt data-slide-to=\"2\" data-bs-slide-to=\"2\">\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b>2022_夜談阿德勒_1930-2100</b></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n                            <i>Card Subtitle</i>\n                        </h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">10/05_吳讚修_追尋蛋黃哥生活哲學：實踐軟爛的勇氣<br>11/02_葉人菘_輕鬆談話2 音樂阿德勒<br>12/07_林上能_放心微旅行:freelancer的告白</p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"page15.html\" class=\"btn item-btn btn-white\" data-app-placeholder=\"Type Text\" target=\"_blank\">More &gt;</a></div>\n                </div>\n            </div><div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                                              <img src=\"@PROJECT_PATH@/assets/images/2022-08-1-1-1-1076x897.png\" alt data-slide-to=\"3\" data-bs-slide-to=\"3\">\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b>2022_海蒂之柱_1930-2130</b></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n                            <i>Card Subtitle</i>\n                        </h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">08/17_「The Invisible Adlerian Power 在寫作上遇到看不見的阿德勒原力」一個作家的誕生、死亡與重生<br></p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"page16.html\" class=\"btn item-btn btn-white\" data-app-placeholder=\"Type Text\" target=\"_blank\">More &gt;</a></div>\n                </div>\n            </div><div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                                              <img src=\"@PROJECT_PATH@/assets/images/yy-new-1-1256x1047.png\" alt data-slide-to=\"4\" data-bs-slide-to=\"1\">\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b>2022_YY之旅_1930-2130</b></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n                            <i>Card Subtitle</i>\n                        </h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">04/27 (三) 學渣眼中的學霸：我們終究是同路人嗎？<br>在生命之流中阿德勒與佛洛伊德的錯過：黃金交叉在哪裡\n<br>在元宇宙中的相逢：心智的魔力到哪裡？<br></p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"page20.html\" class=\"btn item-btn btn-white\" data-app-placeholder=\"Type Text\" target=\"_blank\">More &gt;</a></div>\n                </div>\n            </div>\n            \n            \n            \n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features3\" group=\"Features\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"10\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <select title=\"Columns\" name=\"cardsWidth\">\n            <option value=\"12\">1</option>\n            <option value=\"6\" selected>2</option>\n            <option value=\"4\">3</option>\n            <option value=\"3\">4</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" name=\"showTitle\" title=\"Title\" checked>\n        <input type=\"checkbox\" name=\"showSubtitle\" title=\"Subtitle\">\n        <header>Cards</header>\n        <input type=\"checkbox\" name=\"autoSize\" title=\"Auto Size\">\n        <input type=\"range\" name=\"imageHeight\" title=\"Height\" min=\"1\" max=\"5\" step=\"1\" value=\"5\" condition=\"autoSize && !(showButtons==false && showCardSubtitle==false && showCardTitle==false && showText==false)\">\n        <input type=\"checkbox\" title=\"Spacing\" name=\"spacing\" checked>\n        <input type=\"checkbox\" name=\"showCardTitle\" title=\"Title\" checked>\n        <input type=\"checkbox\" name=\"showCardSubtitle\" title=\"Subtitle\">\n        <input type=\"checkbox\" name=\"showText\" title=\"Text\" checked>\n        <input type=\"checkbox\" name=\"showButtons\" title=\"Buttons\" checked>\n        <input type=\"color\" name=\"cardsBg\" title=\"BG\" value=\"#ffffff\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" required>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background3.jpeg\">\n            <input type=\"color\" title=\"Color\" value=\"#fafafa\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#fafafa\" condition=\"overlay && bg.type == 'image'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type == 'image'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"mbr-section-head\" mbr-if=\"showTitle || showSubtitle\">\n            <h4 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                <b>公開中的課程</b></h4>\n            <h5 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">To add more cards, hover on a card and\n                click 'Add items'</h5>\n        </div>\n        <div class=\"row mt-4\">\n            <div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}} active\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/2022-2-1253x1265.png\" alt data-slide-to=\"0\" data-bs-slide-to=\"0\">\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b>2022_家庭敲心磚_親職教育系列講座_公益免費</b></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n                            <i>Card Subtitle</i>\n                        </h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">每一塊磚讓我們敲開彼此心門，每一塊磚搭建我們的溫暖家園，從理解概念到練習如何在教養裡運用，讓我們一起知行合一，營造更加自在的教養關係。</p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"page18.html\" class=\"btn item-btn btn-white\" target=\"_blank\" data-app-placeholder=\"Type Text\">More &gt;</a></div>\n                </div>\n            </div><div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/mbr-1256x801.jpg\" alt data-slide-to=\"1\" data-bs-slide-to=\"1\">\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b>2022_10-12月_精神時光屋 開始練功囉</b></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n                            <i>Card Subtitle</i>\n                        </h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">我們相信閱讀與對話，將帶來希望與更多可能性。每周一次由諮詢師陪伴大家一起對話討論，夥伴們可以選擇自己有興趣的書籍梯次參與。一起來練功吧~<br><br>帶領人 葉人菘\n<br>日期 2022/11/03~12/22&nbsp;每周一次<br>\n時間&nbsp;19:00-20:30 (1.5hr)<br>報名費 $1000元<br>《教出有勇氣與行動力的孩子-親子雙贏的教養功夫》<br><br>帶領人 張慧嬅<br>日期 2022/10/25~2023/01/03 兩周一次<br>時間 19:30-21:00 (1.5hr)\n<br>《我們，相伴不相絆》<br>\n<br>\n帶領人 張慧嬅\n<br>日期&nbsp;2022/10/12~12/21 兩周一次\n<br>時間 13:30-15:00 (1.5hr)\n<br>《讓天賦自由（改版）》&nbsp;<br></p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"page7.html\" class=\"btn item-btn btn-white\" data-app-placeholder=\"Type Text\" target=\"_blank\">More &gt;</a></div>\n                </div>\n            </div><div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/3.jpg\" alt data-slide-to=\"2\" data-bs-slide-to=\"2\">\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b>2022_夜談阿德勒_1930-2100</b></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n                            <i>Card Subtitle</i>\n                        </h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">10/05_吳讚修_追尋蛋黃哥生活哲學：實踐軟爛的勇氣<br>11/02_葉人菘_輕鬆談話2 音樂阿德勒<br>12/07_林上能_放心微旅行:freelancer的告白</p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"page15.html\" class=\"btn item-btn btn-white\" data-app-placeholder=\"Type Text\" target=\"_blank\">More &gt;</a></div>\n                </div>\n            </div><div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                                              <img src=\"@PROJECT_PATH@/assets/images/2022-08-1-1-1-1076x897.png\" alt data-slide-to=\"3\" data-bs-slide-to=\"3\">\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b>2022_海蒂之柱_1930-2130</b></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n                            <i>Card Subtitle</i>\n                        </h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">08/17_「The Invisible Adlerian Power 在寫作上遇到看不見的阿德勒原力」一個作家的誕生、死亡與重生<br></p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"page16.html\" class=\"btn item-btn btn-white\" data-app-placeholder=\"Type Text\" target=\"_blank\">More &gt;</a></div>\n                </div>\n            </div><div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                                              <img src=\"@PROJECT_PATH@/assets/images/yy-new-1-1256x1047.png\" alt data-slide-to=\"4\" data-bs-slide-to=\"1\">\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b>2022_YY之旅_1930-2130</b></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n                            <i>Card Subtitle</i>\n                        </h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">04/27 (三) 學渣眼中的學霸：我們終究是同路人嗎？<br>在生命之流中阿德勒與佛洛伊德的錯過：黃金交叉在哪裡\n<br>在元宇宙中的相逢：心智的魔力到哪裡？<br></p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"page20.html\" class=\"btn item-btn btn-white\" data-app-placeholder=\"Type Text\" target=\"_blank\">More &gt;</a></div>\n                </div>\n            </div>\n            \n            \n            \n        </div>\n    </div>\n</section>",
           "_anchor": "公開中課程",
           "_isUserblock": true,
           "_cid": "sEQK8Hl4Rr",
@@ -1335,7 +1408,7 @@
           },
           "_name": "gallery1",
           "_sourceTheme": "voyagem4",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"mbr-gallery mbr-slider-carousel extGallery gallery1 voyagem4_gallery1\" group=\"Sliders & Galleries\" plugins=\"Masonry,Slider,BootstrapCarouselSwipe,Gallery,VimeoVideo\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"8\" inline>\n\t\t<input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"8\" inline>\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Image\" name=\"showImage\" checked>\n\t\t<header>Filter</header>\n\t\t<input type=\"color\" title=\"Tags Color\" name=\"tagsColor\" value=\"#003d59\">\n\t\t<input type=\"color\" title=\"Active Tab Color\" name=\"activeTabColor\" value=\"#46877e\">\n\t\t<input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#cce4f0\">\n\t\t<header>Gallery</header>\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#003d59\">\n\t\t<input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\">\n\t\t<input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#ffffff\" condition=\"gradOverlay\">\n\t\t<input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" inline>\n\t\t<input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\t\t<input type=\"checkbox\" title=\"Show Icon\" name=\"showIcon\">\n\t\t<input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"container\" mbr-if=\"showTitle || showSubtitle || showImage\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"col-12\" mbr-class=\"{'col-lg-5' : showImage, 'col-lg-12' : !showImage}\">\n\t\t\t\t<h3 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">空間出任務_3</h3>\n\t\t\t\t<h4 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSubtitle\">主題：雁行共好工作坊\n<div>日期：2022年10月22日\n</div><div>地點：中國文化大學教育推廣部大廈館 B1國際會議廳</div><div>合作夥伴：台灣也思/輔仁大學</div><div>(<b><a href=\"http://www.yessla.org.tw/news-1-detail.php?id=270\" class=\"text-primary\" target=\"_blank\">http://www.yessla.org.tw/news-1-detail.php?id=270</a></b>)</div><div><br></div><div>希望藉由此次工作坊讓大家深入探討家庭關係，更藉由面對面的互相分享了解不同的觀點，一起洞悉問題、「解開家鎖」！</div><br><div>洽詢課程\n</div><div>我們提供親職教養相關講座、工作以及父母/教師成長支持團體與讀書會的服務,歡<span style=\"font-size: 1.2rem;\">迎所有學校、企業、社區或任何有需求的組織與我們聯哦。 <a href=\"page21.html\" class=\"text-primary\" target=\"_blank\">...了解更多 &gt;</a></span></div><div>\n</div></h4>\n\t\t\t</div>\n\t\t\t<div class=\"col-lg-7 col-12\" mbr-if=\"showImage\">\n\t\t\t\t<div class=\"image\">\n\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/image-1049.png\" alt title>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t<div class=\"gallery__wrap container\">\n\t\t<div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\"></div>\n\t</div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"mbr-gallery mbr-slider-carousel extGallery gallery1 voyagem4_gallery1\" group=\"Sliders & Galleries\" plugins=\"Masonry,Slider,BootstrapCarouselSwipe,Gallery,VimeoVideo\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"8\" inline>\n\t\t<input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"8\" inline>\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Image\" name=\"showImage\" checked>\n\t\t<header>Filter</header>\n\t\t<input type=\"color\" title=\"Tags Color\" name=\"tagsColor\" value=\"#003d59\">\n\t\t<input type=\"color\" title=\"Active Tab Color\" name=\"activeTabColor\" value=\"#46877e\">\n\t\t<input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#cce4f0\">\n\t\t<header>Gallery</header>\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#003d59\">\n\t\t<input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\">\n\t\t<input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#ffffff\" condition=\"gradOverlay\">\n\t\t<input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" inline>\n\t\t<input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\t\t<input type=\"checkbox\" title=\"Show Icon\" name=\"showIcon\">\n\t\t<input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"container\" mbr-if=\"showTitle || showSubtitle || showImage\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"col-12\" mbr-class=\"{'col-lg-5' : showImage, 'col-lg-12' : !showImage}\">\n\t\t\t\t<h3 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">空間出任務_3</h3>\n\t\t\t\t<h4 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSubtitle\">主題：雁行共好工作坊\n<div>日期：2022年10月22日\n</div><div>地點：中國文化大學教育推廣部大廈館 B1國際會議廳</div><div>合作夥伴：台灣也思/輔仁大學</div><div>(<b><a href=\"http://www.yessla.org.tw/news-1-detail.php?id=270\" class=\"text-primary\" target=\"_blank\">http://www.yessla.org.tw/news-1-detail.php?id=270</a></b>)</div><div><br></div><div>希望藉由此次工作坊讓大家深入探討家庭關係，更藉由面對面的互相分享了解不同的觀點，一起洞悉問題、「解開家鎖」！</div><br><div>洽詢課程\n</div><div>我們提供親職教養相關講座、工作以及父母/教師成長支持團體與讀書會的服務,歡<span style=\"font-size: 1.2rem;\">迎所有學校、企業、社區或任何有需求的組織與我們聯哦。 <a href=\"page21.html\" class=\"text-primary\" target=\"_blank\">...了解更多 &gt;</a></span></div><div>\n</div></h4>\n\t\t\t</div>\n\t\t\t<div class=\"col-lg-7 col-12\" mbr-if=\"showImage\">\n\t\t\t\t<div class=\"image\">\n\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/line-album-20221022-221025.jpg\" alt title>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t<div class=\"gallery__wrap container\">\n\t\t<div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\"></div>\n\t</div>\n</section>",
           "_anchor": "gallery1-ik",
           "_isUserblock": true,
           "_cid": "tkvimeSRw8",
@@ -1359,6 +1432,71 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/image-1048.png",
                 "thumb": "@PROJECT_PATH@/assets/images/image-1048-800x548.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "这里输入标题",
+                "active": false
+              },
+              {
+                "tags": "创意",
+                "videoPreview": "@ADDONS_PATH@/voyagem4/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/line-album-20221022-221025.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/line-album-20221022-221025-800x451.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "这里输入标题",
+                "active": false
+              },
+              {
+                "tags": "创意",
+                "videoPreview": "@ADDONS_PATH@/voyagem4/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/line-album-20221022-221026.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/line-album-20221022-221026-800x451.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "这里输入标题",
+                "active": false
+              },
+              {
+                "tags": "创意",
+                "videoPreview": "@ADDONS_PATH@/voyagem4/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/line-album-20221022-221027.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/line-album-20221022-221027-800x451.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "这里输入标题",
+                "active": false
+              },
+              {
+                "tags": "创意",
+                "videoPreview": "@ADDONS_PATH@/voyagem4/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/line-album-20221022-221029.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/line-album-20221022-221029-800x451.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "这里输入标题",
+                "active": false
+              },
+              {
+                "tags": "创意",
+                "videoPreview": "@ADDONS_PATH@/voyagem4/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/line-album-20221022-221028.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/line-album-20221022-221028-721x1280.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -8340,10 +8478,10 @@
           },
           "_name": "gallery1",
           "_sourceTheme": "voyagem4",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"mbr-gallery mbr-slider-carousel extGallery gallery1 voyagem4_gallery1\" group=\"Sliders &amp; Galleries\" plugins=\"Masonry,Slider,BootstrapCarouselSwipe,Gallery,VimeoVideo\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"8\" inline=\"\">\n\t\t<input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"8\" inline=\"\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked=\"\">\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked=\"\">\n\t\t<input type=\"checkbox\" title=\"Image\" name=\"showImage\" checked=\"\">\n\t\t<header>Filter</header>\n\t\t<input type=\"color\" title=\"Tags Color\" name=\"tagsColor\" value=\"#003d59\">\n\t\t<input type=\"color\" title=\"Active Tab Color\" name=\"activeTabColor\" value=\"#46877e\">\n\t\t<input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#cce4f0\">\n\t\t<header>Gallery</header>\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#003d59\">\n\t\t<input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\">\n\t\t<input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#ffffff\" condition=\"gradOverlay\">\n\t\t<input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" inline=\"\">\n\t\t<input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\t\t<input type=\"checkbox\" title=\"Show Icon\" name=\"showIcon\">\n\t\t<input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"container\" mbr-if=\"showTitle || showSubtitle || showImage\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"col-12\" mbr-class=\"{'col-lg-5' : showImage, 'col-lg-12' : !showImage}\">\n\t\t\t\t<h3 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">空間出任務_3</h3>\n\t\t\t\t<h4 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSubtitle\">主題：雁行共好工作坊\n<div>日期：2022年10月22日\n</div><div>地點：中國文化大學教育推廣部大廈館 B1國際會議廳</div><div>合作夥伴：台灣也思/輔仁大學</div><div>(<b><a href=\"http://www.yessla.org.tw/news-1-detail.php?id=270\" class=\"text-primary\" target=\"_blank\">http://www.yessla.org.tw/news-1-detail.php?id=270</a></b>)</div><div><br></div><div>希望藉由此次工作坊讓大家深入探討家庭關係，更藉由面對面的互相分享了解不同的觀點，一起洞悉問題、「解開家鎖」！</div><br><div>洽詢課程\n</div><div>我們提供親職教養相關講座、工作以及父母/教師成長支持團體與讀書會的服務,歡<span style=\"font-size: 1.2rem;\">迎所有學校、企業、社區或任何有需求的組織與我們聯哦。 <a href=\"page21.html\" class=\"text-primary\" target=\"_blank\">...了解更多 &gt;</a></span></div><div>\n</div></h4>\n\t\t\t</div>\n\t\t\t<div class=\"col-lg-7 col-12\" mbr-if=\"showImage\">\n\t\t\t\t<div class=\"image\">\n\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/image-1049.png\" alt=\"\" title=\"\">\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t<div class=\"gallery__wrap container\">\n\t\t<div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\"></div>\n\t</div>\n</section>",
-          "_anchor": "gallery1-io",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"mbr-gallery mbr-slider-carousel extGallery gallery1 voyagem4_gallery1\" group=\"Sliders &amp; Galleries\" plugins=\"Masonry,Slider,BootstrapCarouselSwipe,Gallery,VimeoVideo\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"8\" inline=\"\">\n\t\t<input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"8\" inline=\"\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked=\"\">\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked=\"\">\n\t\t<input type=\"checkbox\" title=\"Image\" name=\"showImage\" checked=\"\">\n\t\t<header>Filter</header>\n\t\t<input type=\"color\" title=\"Tags Color\" name=\"tagsColor\" value=\"#003d59\">\n\t\t<input type=\"color\" title=\"Active Tab Color\" name=\"activeTabColor\" value=\"#46877e\">\n\t\t<input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#cce4f0\">\n\t\t<header>Gallery</header>\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#003d59\">\n\t\t<input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\">\n\t\t<input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#ffffff\" condition=\"gradOverlay\">\n\t\t<input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" inline=\"\">\n\t\t<input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\t\t<input type=\"checkbox\" title=\"Show Icon\" name=\"showIcon\">\n\t\t<input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"container\" mbr-if=\"showTitle || showSubtitle || showImage\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"col-12\" mbr-class=\"{'col-lg-5' : showImage, 'col-lg-12' : !showImage}\">\n\t\t\t\t<h3 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">空間出任務_3</h3>\n\t\t\t\t<h4 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSubtitle\">主題：雁行共好工作坊\n<div>日期：2022年10月22日\n</div><div>地點：中國文化大學教育推廣部大廈館 B1國際會議廳</div><div>合作夥伴：台灣也思/輔仁大學</div><div>(<b><a href=\"http://www.yessla.org.tw/news-1-detail.php?id=270\" class=\"text-primary\" target=\"_blank\">http://www.yessla.org.tw/news-1-detail.php?id=270</a></b>)</div><div><br></div><div>希望藉由此次工作坊讓大家深入探討家庭關係，更藉由面對面的互相分享了解不同的觀點，一起洞悉問題、「解開家鎖」！</div><br><div>洽詢課程\n</div><div>我們提供親職教養相關講座、工作以及父母/教師成長支持團體與讀書會的服務,歡<span style=\"font-size: 1.2rem;\">迎所有學校、企業、社區或任何有需求的組織與我們聯哦。 <a href=\"page21.html\" class=\"text-primary\" target=\"_blank\">...了解更多 &gt;</a></span></div><div>\n</div></h4>\n\t\t\t</div>\n\t\t\t<div class=\"col-lg-7 col-12\" mbr-if=\"showImage\">\n\t\t\t\t<div class=\"image\">\n\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/line-album-20221022-221025.jpg\" alt=\"\" title=\"\">\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t<div class=\"gallery__wrap container\">\n\t\t<div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\"></div>\n\t</div>\n</section>",
+          "_anchor": "gallery1-iq",
           "_isUserblock": true,
-          "_cid": "tkvy4OuGOb",
+          "_cid": "tleYUlCDjc",
           "_protectedParams": [
             "text_all",
             "gallery__filtersTextStyle",
@@ -8364,6 +8502,71 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/image-1048.png",
                 "thumb": "@PROJECT_PATH@/assets/images/image-1048-800x548.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "这里输入标题",
+                "active": false
+              },
+              {
+                "tags": "创意",
+                "videoPreview": "@ADDONS_PATH@/voyagem4/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/line-album-20221022-221025.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/line-album-20221022-221025-800x451.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "这里输入标题",
+                "active": false
+              },
+              {
+                "tags": "创意",
+                "videoPreview": "@ADDONS_PATH@/voyagem4/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/line-album-20221022-221026.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/line-album-20221022-221026-800x451.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "这里输入标题",
+                "active": false
+              },
+              {
+                "tags": "创意",
+                "videoPreview": "@ADDONS_PATH@/voyagem4/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/line-album-20221022-221027.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/line-album-20221022-221027-800x451.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "这里输入标题",
+                "active": false
+              },
+              {
+                "tags": "创意",
+                "videoPreview": "@ADDONS_PATH@/voyagem4/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/line-album-20221022-221029.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/line-album-20221022-221029-800x451.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "这里输入标题",
+                "active": false
+              },
+              {
+                "tags": "创意",
+                "videoPreview": "@ADDONS_PATH@/voyagem4/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/line-album-20221022-221028.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/line-album-20221022-221028-721x1280.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",

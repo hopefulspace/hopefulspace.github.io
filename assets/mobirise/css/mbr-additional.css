@@ -2678,35 +2678,6 @@ a {
   color: #ffffff;
   text-align: center;
 }
-.cid-sLV8c6DLS0 {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  background-color: #111111;
-}
-.cid-sLV8c6DLS0 .line {
-  width: 55px;
-  margin-bottom: 0.5rem;
-  height: 5px;
-  display: inline-block;
-  background: linear-gradient(to left, #ff8000, #98dee8);
-}
-.cid-sLV8c6DLS0 .btn-col {
-  align-items: flex-end;
-  justify-content: flex-end;
-  display: flex;
-}
-@media (max-width: 767px) {
-  .cid-sLV8c6DLS0 .btn-col {
-    justify-content: center;
-  }
-}
-.cid-sLV8c6DLS0 .mbr-text,
-.cid-sLV8c6DLS0 .mbr-section-btn {
-  color: #999999;
-}
-.cid-sLV8c6DLS0 p {
-  margin: 0;
-}
 .cid-szggv54iQK {
   padding-top: 3rem;
   padding-bottom: 2rem;
